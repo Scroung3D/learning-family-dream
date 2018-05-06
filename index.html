@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="main-wrapper">
-    <input type="checkbox" id="nav-control">
+    <input type="checkbox" id="nav-control" style="display: none">
     <div class="header-clear">
       <header>
         <div class="center-text">
@@ -20,8 +20,8 @@
           <a href="#">Order Us</a>
           <a href="#">Choose</a>
         </div>
-        <label for="nav-control"><i class="fas fa-ellipsis-v"></i></label>
-        <div class="header-nav">
+        <label for="nav-control"><i class="fas fa-ellipsis-v" aria-hidden="true"></i></label>
+        <nav class="header-nav">
           <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About Us</a></li>
@@ -31,7 +31,7 @@
             <li><a href="">Experience</a></li>
             <li><a href="">News</a></li>
           </ul>
-        </div>
+        </nav>
       </header>
     </div>
   </div>
