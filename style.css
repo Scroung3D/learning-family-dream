@@ -587,7 +587,25 @@ footer h2 {
     }
     /* End Image Gallery */
 
+    footer div {
+        width: 100%;
+        float: none;
+        margin-bottom: 10%;
+    }
 
+    footer div.email form input {
+        margin: 4% auto;
+    }
+
+    footer div.languages {
+        text-align: center;
+    }
+
+    footer div.languages a {
+        width: 40%;
+        margin-left: 30%;
+    }
+    /* End Footer */
 }
 
 
